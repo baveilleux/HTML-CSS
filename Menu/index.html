@@ -3,59 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>Cafe Menu</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 <body>
+<div class="menu">
 <main>
     <h1>CAMPER CAFE</h1>
+    <p>Est. 2020</p>
 <section>
-    <h2></h2>
-    <!--  -->
-    <p>    </p>
-    
-</section>
-
-<section>
-    <h2></h2>
-        <h3>Things cats love:</h3>
-        <ul>
-            <li>cat nip</li>
-            <li>laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-
-        <figure><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate." ><figcaption>Cats <em>love</em> lasagna</figcaption></figure>
-    <!-- No quotes in figcaption -->
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-        </ol>
-    <figure>
-        <img  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-        <figcaption>Cats <strong>hate</strong> other cats.</figcaption></figure>
-</section>
-    
-<section>
-    <h2>Cat Form</h2>
-    <form action="https://freecatphotoapp.com/submit-cat-photo">
-        <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked>Indoor</label>
-            <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Outdoor</label>
-        </fieldset>
-        <fieldset>
-        <legend>
-        What's your cat's personality?
-        </legend>
-        <input type="checkbox" id="loving" value="loving" name="personality" checked> <label for="loving">Loving</label>
-        <input type="checkbox" value="lazy" id="lazy" name="personality"> <label for="lazy">Lazy</label>
-        <input type="checkbox" value="energetic" id="energetic" name="personality"> <label for="energetic">Energetic</label>
-        </fieldset>
-        <input type = "text" required name="cat photo url" placeholder="cat photo url">
-        <button type="submit">Submit</button>
-    </form>
-</section>
+    <h2>Coffee</h2>
+    <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+                    
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p>
+            <p class="price">3.75</p>
+          </article>          
+          
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p>
+            <p class="price">3.50</p>
+          </article>          
+          
+          <article class="item">
+            <p class="flavor">Hazelnut</p>
+            <p class="price">4.00</p>
+          </article>          
+          
+          <article class="item">
+            <p class="flavor">Mocha</p>
+            <p class="price">4.50</p>
+          </article>
+</div>
 </main>
 </body>
 <footer>
